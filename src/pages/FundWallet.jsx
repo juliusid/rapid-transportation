@@ -13,7 +13,7 @@ const FundWallet = () => {
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 backgroundRepeat: 'no-repeat', 
-                height: '100vh',
+                height: '120vh',
                 width: '100%',
                 position:"relative",
                 paddingTop: '3rem'
@@ -94,6 +94,11 @@ const FundWallet = () => {
                             Expiration Date
                         </label>
                         <input type="date" id='edate' className='w-[30rem] h-[3rem] border-gray-400 border-solid border-[1px] px-3 font-poppins' placeholder='MM/YY'/>
+
+                        <label htmlFor="#funds" className='font-poppins mt-4'>
+                            Amount to fund
+                        </label>
+                        <input type="text" id='funds' name='funds' className='w-[30rem] h-[3rem] border-gray-400 border-solid border-[1px] px-3 font-poppins' placeholder='3000'/>
 
                         <button type='sumbit' className='mt-4 bg-blue-400 text-white font-poppins px-[6rem] py-[1rem] text-lg '> Fund Wallet</button>
                     </div>
