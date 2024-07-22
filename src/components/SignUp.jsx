@@ -8,10 +8,10 @@ const SignUp = () => {
 
     </nav>
     
-    <form className=' h-[100vh] flex items-center justify-center bg-blue-800/30 overflow-scroll pt-[30rem] pb-5'>
+    <form className=' h-[100vh] flex items-center justify-center bg-gray-300 overflow-scroll pt-[30rem] pb-5' method='POST'>
 
 
-        <div className=' flex flex-col space-y-4 items-start justify-center' method='POST'>
+        <div className=' flex flex-col space-y-4 items-start justify-center bg-white px-[1.5rem] py-[2rem] rounded-lg shadow-2xl shadow-gray-500' >
 
         <div className='flex flex-col space-y-1'>
                 <label htmlFor="#fullName" className='font-poppins mt-4'>
