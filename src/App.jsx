@@ -4,6 +4,7 @@ import Loading from './components/Loading';
 import FundWallet from './pages/FundWallet';
 import SignUp from './components/SignUp';
 import LogIn from './components/LogIn';
+import Wallet from './pages/Wallet';
 
 const Home = lazy(() => import('./pages/Home'));
 const Services = lazy(() => import('./pages/Services'));
@@ -19,8 +20,9 @@ function App() {
           <Route exact path='/login' element={<LogIn />} />
           <Route exact path='/' element={<Home />} />
           <Route path='/services' element={<Services />} />
-          <Route path='/profile' element={<Profile />} />
+          <Route path='/dashbord' element={<Profile />} />
           <Route path='/fund-wallet' element={<FundWallet />} />
+          <Route path='/wallet' element={<Wallet />} />
         </Routes>
       </Suspense>
     </Router>
